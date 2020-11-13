@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 200vh;
+    width: 100%;
+    background-color: seashell;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 200vh;
+    width: 100%;
+}
+
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: steelblue;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+}
+
+.heart {
+    margin-left: 80%;
+    margin-right: 20px;
+}
+
+.bell, .cart {
+    margin-right: 20px;
+}
+
+.circle {
+    background-color: tomato;
+    font-size: 10px;
+    height: 12px;
+    width: 5px;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    position: relative;
+    bottom: 15px;
+    left: 10px;
+}
+
+.heart i, .bell i, .cart i {
+    position: relative;
+    top: 8px;
+    right: 2px;
+}
